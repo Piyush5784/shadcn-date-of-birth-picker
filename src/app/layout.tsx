@@ -18,6 +18,17 @@ export const metadata: Metadata = {
   title: "Shadcn Date of Birth Picker Component",
   description:
     "A customizable date of birth picker component built with shadcn/ui",
+  openGraph: {
+    images: [
+      {
+        url: "/image.png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/image.png"],
+  },
 };
 
 export default function RootLayout({

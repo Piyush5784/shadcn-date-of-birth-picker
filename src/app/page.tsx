@@ -1,9 +1,7 @@
 "use client";
-import { Timeline } from "@/components/acernity/timeline";
 import { Calendar } from "@/components/ui/calendar";
 import { CodeBlock } from "@/components/ui/code-block";
 import { CodeBlockDemo } from "@/components/ui/code-block-demo";
-import { CodeEditor } from "@/components/ui/code-editor";
 import { Input } from "@/components/ui/input";
 import {
   Popover,
@@ -14,13 +12,11 @@ import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { format } from "date-fns";
 import { LuGithub } from "react-icons/lu";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { exampleCode } from "@/examples/example-code";
 
 export default function Home() {
   const [date, setDate] = useState("");
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
-  const [expanded, setExpanded] = useState(false);
 
   return (
     <>
