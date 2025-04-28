@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Shadcn Date of Birth Picker",
+  title: "Shadcn Date of Birth Picker Component",
   description:
     "A customizable date of birth picker component built with shadcn/ui",
 };
